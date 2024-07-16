@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="doctor.css"> 
+        <title></title>
+    </head>
+    <body>
+        <section>
+            <div class="form-box">
+                <div class="form-value">
+                     <h2>Doctor Appointment</h2>
+                    <form action="https://sheetdb.io/api/v1/3vub5uun0t6n4" method="post" id="sheetdb-form">
+                        <div class="inputbox">
+                            <input name="data[firstname]" required>
+                            <label for="name">First Name</label>
+                        </div>
+                        
+                        <div class="inputbox">
+                            <input name="data[lastname]" required>
+                            <label for="name">Last Name</label>
+                        </div>
+                     
+                       <label for="email">Gender</label>
+                       <label for="mail" class="radio-inline"><input type="radio" name="data[gender]" value="m" id="male">Male</label>
+                       <label for="femail" class="radio-inline"><input type="radio" name="data[gender]"value="f" id="male">Female</label>
+                       <label for="others" class="radio-inline"><input type="radio" name="data[gender]" value="o" id="male">Others</label>
+                          
+                        <div class="inputbox">
+                        <input type="Phone Number"   name="data[number]" required>
+                        <label for="">Phone Number</label>
+                        </div>
+                        
+                        <div class="inputbox">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <input name="data[email]" required>
+                            <label for="">Email</label>
+                        </div>
+                        
+                        <div class="inputbox">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                            <input type="password" 
+                                placeholder="Enter Password" required />        
+                        </div>
+                        <div class="inputbox">
+                          <label for="dob"> Date of Birth</label>
+                          <input type="date" id="dob"  name="data[dob]">
+                          
+                        </div>
+                        <div class="inputbox">
+                            <label for="age">Age</label>
+                            <input type="number" id="age"  name="data[age]">
+                            
+                          </div>
+                  
+                        <button>REGISTER</button>
+                        <div class="register">
+                            <p>Don't have a account<a href="a">register</a></p>
+                        </div>        
+                    </form>
+                    
+
+                 </div>
+            </div>
+        </section>
+        
+    </body>
+</html>
+  
